@@ -23,6 +23,7 @@ module.exports = {
   //sourcemap
   devtool: "cheap-module-eval-sourcemap",
   devServer: {
-    contentBase: path.join(__dirname, "public")
+    contentBase: path.join(__dirname, "public"),
+    historyApiFallback: true
   }
 };
