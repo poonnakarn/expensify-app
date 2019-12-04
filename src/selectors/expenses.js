@@ -1,7 +1,8 @@
 import moment from "moment";
 // Get visible expenses
 
-// Takes array of expenses(object) and return filtered/sorted array
+// input เป็น array of expenses(object)
+// return เป็น array of expenses หลังจากใส่ object filter{} แล้ว
 export default (expenses, { text, sortBy, startDate, endDate }) => {
   return expenses
     .filter(expense => {

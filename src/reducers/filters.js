@@ -1,5 +1,7 @@
 import moment from "moment";
 
+// get filters object + action -> return new filters object
+
 // Filters Reducer
 const filtersReducerDefaultState = {
   text: "",

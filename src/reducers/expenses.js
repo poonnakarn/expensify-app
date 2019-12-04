@@ -1,4 +1,8 @@
 // Expenses Reducer
+
+// input = state (array of expense object)
+// return array of expense object after action
+
 const expensesReducerDefaultState = [];
 export default (state = expensesReducerDefaultState, action) => {
   switch (action.type) {
