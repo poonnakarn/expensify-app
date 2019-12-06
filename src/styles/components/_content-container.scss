@@ -1,0 +1,5 @@
+.content-container {
+  margin: 0 auto; // auto center left-right เมื่อกำหนด max-width 80rem
+  padding: 0 $m-size; // left-right padding
+  max-width: 80rem;
+}

@@ -1,0 +1,19 @@
+.input-group {
+  display: flex; // ทำให้เรียงซ้ายขวา เพราะปกติ div display=box เรียงบนล่าง
+  flex-direction: column; // ให้เรียงในแนวตั้งกรณีเป็นจอมือถือ
+  margin-bottom: $m-size;
+
+  @media (min-width: $desktop-breakpoint) {
+    // style for larger screen
+    flex-direction: row;
+    margin-bottom: $l-size;
+  }
+}
+
+.input-group__item {
+  margin-bottom: $s-size;
+  @media (min-width: $desktop-breakpoint) {
+    // style for larger screen
+    margin: 0 $s-size 0 0;
+  }
+}

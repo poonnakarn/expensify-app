@@ -1,0 +1,18 @@
+.header {
+  background: $dark-blue;
+}
+
+.header__content {
+  align-items: center; // อยู่ตรงกลางในแนว vertical
+  display: flex; // ให้ปุ่ม logout อยู่ข้างๆ title
+  justify-content: space-between; // ให้ title กับ logout อยู่ชิดขอบขวาซ้าย
+  padding: $s-size 0; //padding บนล่าง
+}
+
+.header__title {
+  color: white;
+  text-decoration: none; // remove underline hyperlink
+  h1 {
+    margin: 0; // remove header margin ที่มาจาก h1
+  }
+}

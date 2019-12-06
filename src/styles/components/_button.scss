@@ -1,0 +1,21 @@
+.button {
+  background: $blue;
+  border: none;
+  color: white;
+  display: inline-block; //ปลอม link ให้เหมือน button โดยเพิ่ม top/buttom padding+margin
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1; // ปกติbutton มี lineheight=1 ทำให้ hyperlink เหมือน button
+  padding: $s-size;
+  text-decoration: none; // remove underline hyperlink
+}
+
+//create modifier for logout button ให้เป็น link แทนปุ่มฟ้า
+.button--link {
+  background: none;
+}
+
+// remove button modifier
+.button--secondary {
+  background: #888;
+}

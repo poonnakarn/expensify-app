@@ -1,0 +1,23 @@
+.box-layout {
+  align-items: center; // center flexbox ในแนวดิ่ง
+  background: url("/images/bg.jpg");
+  background-size: cover; // ให้ background cover เต็มหน้ารูปเดียว
+  display: flex; // use flexbox for center
+  height: 100vh; // 100% viewport height
+  justify-content: center; // center ในแนวราบ
+  width: 100vw;
+}
+
+.box-layout__box {
+  background: fade-out(white, 0.15);
+  border-radius: 3px; // ขอบมน
+  padding: $l-size $m-size; //top-bottom left-right ตามลำดับ
+  text-align: center;
+  width: 25rem;
+}
+
+.box-layout__title {
+  //h1 Expensify App
+  margin: 0 0 $m-size 0; // margin only bottom
+  line-height: 1;
+}
